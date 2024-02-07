@@ -70,7 +70,7 @@ const HomePage = () => {
 	return (
 		<Grid container spacing={2} mt={2}>
 			{FavFilter.slice(0, visibleItems).map((card, index) => (
-				<Grid item lg={3} md={3} xs={12} key={'carsCard' + index}>
+				<Grid item lg={3} md={4} sm={6} xs={12} key={'carsCard' + index}>
 					<CardComponent id={card._id} title={card.title} subtitle={card.subtitle} img={card.image.url} phone={card.phone} address={card.address} cardNumber={card.bizNumber} onDelete={handleDeleteCard} Info={handleInfoClick} onEdit={handleEditCard} onFav={handleFavCard} isFav={card.liked} />
 				</Grid>
 			))}
