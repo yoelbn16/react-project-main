@@ -22,6 +22,10 @@ a React-based web application designed to connect users with local businesses. I
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
+### Installing
 
-What things you need to install the software and how to install them:
+1. Clone the repository.
+
+2. Using you code text editor of choice, run `npm i` commad in the terminal.
+
+3. Start the project by runnning `npm start`.
